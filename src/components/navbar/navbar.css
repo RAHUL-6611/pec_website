@@ -1,0 +1,56 @@
+hr{
+    background-color: rgb(206, 206, 206);
+}
+
+.first_bar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.first_bar ul li{
+    padding: 1px 2px;
+    margin: 0px 2px;
+    color: white;
+}
+
+.titlebar{
+    display: flex;
+    justify-content: space-around;
+    overflow-x: hidden;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+.college_name{
+    display: flex;
+    align-items: center;
+}
+
+.navlinks ol li {
+    padding: 2px 7px;
+}
+
+
+.logo {
+    width: 100px;
+}
+
+.third-bar ol li{
+   position: sticky;
+   padding: 5px 10px;
+}
+
+.searchbar{
+    margin: 5px ;
+    padding: 5px 0px;
+}
+
+.search{
+    border-radius: 30px;
+    box-shadow: 0px 0 3px 0px #00000059;
+    outline: none;
+}
+
