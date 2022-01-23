@@ -6,7 +6,7 @@ import ThirdBar from './thirdbar';
 
 const Navbar = () => {
     return <>
-             <FirstBar />
+             {/* <FirstBar /> */}
              <SecondBar />
              <ThirdBar />
            </>
