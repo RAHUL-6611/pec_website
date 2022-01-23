@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../images/PTU_Logo-color.png";
 
 
@@ -15,8 +16,8 @@ const SecondBar = () => {
         
          <div className="navlinks text-lg">
              <ol className="flex flex-row justify-evenly">
-                 <li className="bg-red-500 text-white border-2">News</li>
-                 <li className="border-2 ">Events</li>
+                 <li className="bg-red-500 text-white border-2"><Link to="/news">News</Link></li>
+                 <li className="border-2 "><Link to="/events">Events</Link></li>
              </ol>
          </div>
     </div>

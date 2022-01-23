@@ -5,8 +5,8 @@ const About = () => {
           <div className="about flex flex-row justify-evenly m-10">
              <div className="content">
                  <h1 className="font-bold">About PTU</h1>
-                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi reprehenderit nesciunt quibusdam totam veniam debitis officia culpa iusto sint, inventore, enim rerum unde animi quis accusantium. Laborum quo enim perspiciatis deleniti nobis necessitatibus non quis saepe at aliquid, dolore explicabo fugiat ex vel odio. Delectus inventore maiores sunt assumenda aliquid aspernatur praesentium! Veniam nam accusantium sapiente repellendus maxime commodi aut ipsam incidunt voluptatum natus soluta quis officia, omnis optio consequatur dolorem quod a possimus facilis obcaecati non neque, velit porro. Veritatis corrupti laudantium, aliquid fugiat perspiciatis odit quasi eligendi. Fugit, facere! Atque labore obcaecati vel, consequuntur tenetur neque excepturi distinctio?
-             </div>
+                 <p>Puducherry Technological University (Erstwhile Pondicherry Engineering College) is an Institution promoted and fully funded by the Government of Puducherry, India. It was established as an Engineering College in the year 1984 under the VII Five Year Plan. The college was upgraded to technological university with the approval of the UGC with effect from 5th September, 2020. The PTU was inaugurated by Shri. Venkaiah Naidu, Hon'ble Vice President, Govt. of India on 13.09.2021. The institution is ranked 144 in Engineering Category by NIRF India Rankings 2021.</p>
+               </div>
               <div className="img-slider bg-yellow-200" style={{width: "1000px"}}>
                       we can include image curosle here
               </div>
