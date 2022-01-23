@@ -1,6 +1,5 @@
 {
   "name": "pec_website",
-  "homepage": "https://github.com/Swetha-Baskaran/pec_website.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
