@@ -2,12 +2,12 @@ import React from "react";
 
 const About = () => {
     return <>
-          <div className="about flex flex-row justify-evenly m-10">
+          <div className="about lg:flex block justify-evenly m-10">
              <div className="content">
                  <h1 className="font-bold">About PTU</h1>
                  <p>Puducherry Technological University (Erstwhile Pondicherry Engineering College) is an Institution promoted and fully funded by the Government of Puducherry, India. It was established as an Engineering College in the year 1984 under the VII Five Year Plan. The college was upgraded to technological university with the approval of the UGC with effect from 5th September, 2020. The PTU was inaugurated by Shri. Venkaiah Naidu, Hon'ble Vice President, Govt. of India on 13.09.2021. The institution is ranked 144 in Engineering Category by NIRF India Rankings 2021.</p>
                </div>
-              <div className="img-slider bg-yellow-200" style={{width: "1000px"}}>
+              <div className="img-slider bg-yellow-200 lg:p-20">
                       we can include image curosle here
               </div>
           </div>
@@ -69,4 +69,4 @@ const About = () => {
           </>
 }
 
-export default About;
+export default About;   

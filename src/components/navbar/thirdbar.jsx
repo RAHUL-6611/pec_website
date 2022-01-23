@@ -1,7 +1,7 @@
 import { Disclosure } from '@headlessui/react'
 import { Link } from 'react-router-dom'
-import { FaBars } from 'react-icons/fa';
-// import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import { FaBars, FaPlus, FaSearch } from 'react-icons/fa';
+
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
@@ -15,7 +15,10 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
+
+
 export default function ThirdBar() {
+  
   return (
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
@@ -24,17 +27,17 @@ export default function ThirdBar() {
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-sky-700">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     // <XIcon className="block h-6 w-6" aria-hidden="true" />
                     <h2 className="block h-6 w-6" aria-hidden="true">
-                      <ImCross />
+                      <FaPlus style={{"font-size" : "23px", "transform" : "rotate(45deg)"}} />
                     </h2>
                   ) : (
                     // <MenuIcon className="block h-6 w-6" aria-hidden="true" />
                     <h2 className="block h-6 w-6" aria-hidden="true">
-                      <FaBars />
+                      <FaBars style={{"font-size" : "23px"}} />
                     </h2>
                   )}
                 </Disclosure.Button>
@@ -48,13 +51,14 @@ export default function ThirdBar() {
                            key={item.name}
                            href={item.href}
                            className={classNames(
-                             item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                             'px-3 py-2 rounded-md text-sm font-medium'
+                             item.current ? 'bg-gray-700 border-2 border-gray-600 text-white' : 'text-gray-300 hover:bg-gray-800 hover:text-white',
+                             'px-3 py-2 rounded-md text-sm font-medium dropdown inline cursor-pointer'
                            )}
                            aria-current={item.current ? 'page' : undefined}
                          >
                            {item.name}
                          </a>
+                         
                       </Link>
                     ))}
                   </div>
@@ -62,7 +66,10 @@ export default function ThirdBar() {
               </div>
               
               <div class="flex justify-evenly items-center px-4 sm:px-6 lg:px-8">
-                 <input type="text" class="h-8 w-56 pr-8 pl-5 rounded z-0 focus:shadow focus:outline-none" placeholder='type something...' />
+                 <input type="text" class="h-8 w-56 pr-8 pl-5 rounded-2xl z-0" placeholder='search' />
+                 <button style={{"background" : "transparent","border" : "none","font-size": "15px", "position" :"absolute", "transform" :"translate(90px)", "color" :"black"}}>
+                   <FaSearch />
+                  </button>
               <div> 
 
             </div>

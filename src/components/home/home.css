@@ -6,3 +6,34 @@ video{
     height: 600px;
     width: 100%;
 }
+
+.quicklinks{
+    font-size: 20px;
+    color: red;
+    padding: 2px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid;
+}
+
+li{
+    padding: 2px;
+}
+
+li:hover{
+    color: blue;
+}
+
+input{
+    border: 2px solid;
+    margin: 2px 9px;
+    padding: 3px;
+    width: 300px;
+}
+
+button{
+    background-color: rgb(66, 131, 236);
+    color: white;
+    border: 2px solid rgb(66, 131, 236);
+    outline: none;
+    padding: 3px 7px;
+}

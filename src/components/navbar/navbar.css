@@ -62,3 +62,11 @@ hr{
     padding: 20px;
 }
 
+.nav-content-2{
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 0 0 12px 1px #505050;
+    position: absolute;
+}
