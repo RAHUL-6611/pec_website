@@ -1,5 +1,6 @@
 import { Disclosure } from '@headlessui/react'
 import { Link } from 'react-router-dom'
+import { FaBars } from 'react-icons/fa';
 // import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
@@ -27,10 +28,14 @@ export default function ThirdBar() {
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     // <XIcon className="block h-6 w-6" aria-hidden="true" />
-                    <h2 className="block h-6 w-6" aria-hidden="true">X</h2>
+                    <h2 className="block h-6 w-6" aria-hidden="true">
+                      <ImCross />
+                    </h2>
                   ) : (
                     // <MenuIcon className="block h-6 w-6" aria-hidden="true" />
-                    <h2 className="block h-6 w-6" aria-hidden="true">M</h2>
+                    <h2 className="block h-6 w-6" aria-hidden="true">
+                      <FaBars />
+                    </h2>
                   )}
                 </Disclosure.Button>
               </div>
