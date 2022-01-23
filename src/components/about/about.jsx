@@ -1,8 +1,9 @@
 import React from "react";
+import AllDepartment from "../Departments/all_dept";
 
 const AboutPage = () => {
     return <>
-          <h1>About Page</h1>
+           <AllDepartment />
           </>
 }
 

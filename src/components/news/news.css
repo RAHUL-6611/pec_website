@@ -1,0 +1,27 @@
+.Newstitle{
+    font-size: 20px;
+    font-weight: 600;
+    background: #4caf50;
+    color: white;
+    padding: 5px;
+}
+
+.news{
+  margin: 10px;
+  padding: 10px;
+}
+
+.content{
+    margin: 15px 0px;
+}
+
+.headlines{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.heading{
+    height: 200px;
+    background: wheat;
+    margin-top: 21px;
+}

@@ -1,12 +1,13 @@
 import React from "react";
 import "./home.css"
+import vid from "../../images/campus_video.mp4"
 
 const Header = () => {
     return <>
-           <header className="" style={{"height" : "400px"}}>
-               <vedio src="#" alt="PTU vedio will be played here">
-               PTU vedio will be played here
-               </vedio>
+           <header className="" style={{"height" : "600px"}}>
+               <video width="100%" height="600px" preload="auto" muted autoPlay={"autoplay"} loop>
+                   <source src={vid} type="video/mp4"/>
+               </video>
            </header>
             <div className="count flex flex-row justify-center bg-yellow-200">
                 <div>500+facultys</div>

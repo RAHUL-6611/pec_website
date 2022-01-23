@@ -54,3 +54,11 @@ hr{
     outline: none;
 }
 
+.nav-content-1{
+    position: absolute;
+    background: gray;
+    color: white;
+    margin: 15px 0px;
+    padding: 20px;
+}
+

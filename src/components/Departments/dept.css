@@ -1,0 +1,23 @@
+.dept{
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    margin: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col img{
+    background: wheat;
+    width: 400px;
+    height: 150px;
+}
+
+.dept-name{
+    padding: 20px 20px 0px 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.col:nth-child(2){
+    /* margin: 0px 0px 0px 32px */
+}
