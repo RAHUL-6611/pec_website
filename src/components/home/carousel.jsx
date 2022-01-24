@@ -1,15 +1,11 @@
 import React from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import hostel from "../../assets/hostel.jpg"
 import cover from "../../assets/cover.jpg"
 import audi from "../../assets/audi.jpg"
 import home from "../../assets/home.jpg"
 import sports from "../../assets/sports.jpg"
-import video from "../../assets/campus-life.mp4"
 
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
@@ -69,47 +65,3 @@ export default function App() {
     </>
   )
 }
-// export default function Carousel() {
-//   return (
-//     <>
-//     <Swiper 
-//     spaceBetween={30} 
-//     // centeredSlides={true}
-//      autoplay={{
-//     "delay": 1000,
-//     "disableOnInteraction": false
-//     }} pagination={{
-//   "clickable": true
-//     }}
-//     navigation={true} className="mySwiper"
-//     direction={'vertical'}
-//     mousewheel={true}
-// >
-//   <SwiperSlide>
-//       <img src={hostel} alt="lllllllllllllllllllllll" />
-//   </SwiperSlide>
-  
-//   <SwiperSlide>Slide 1
-//       <img src={hostel} alt="lllllllllllllllllllllll" />
-//   </SwiperSlide>
-  
-//   <SwiperSlide>Slide 1
-//       <img src={hostel} alt="lllllllllllllllllllllll" />
-//   </SwiperSlide>
-  
-//   <SwiperSlide>Slide 1
-//       <img src={hostel} alt="lllllllllllllllllllllll" />
-//   </SwiperSlide>
-  
-//   <SwiperSlide>Slide 1
-//       <img src={hostel} alt="lllllllllllllllllllllll" />
-//   </SwiperSlide>
-  
-//   <SwiperSlide>Slide 1
-//       <img src={hostel} alt="lllllllllllllllllllllll" />
-//   </SwiperSlide>
-  
-//   </Swiper>
-//     </>
-//   )
-// }
