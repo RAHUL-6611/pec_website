@@ -1,14 +1,17 @@
 import React from "react";
+import {en1} from "../../images/en1.jpg"
 
 const FirstBar = () => {
     return <>
-             <div className="first_bar bg-sky-700">
+             <div className="first_bar text-center">
                  <ul>
-                     <li>Email</li>
-                     <li>IIS</li>
-                     <li>NIRF</li>
-                     <li>Alumini</li>
-                     <li>CEO</li>
+                     <li><img src={en1} alt="" /></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
                  </ul>
              </div>
            </>

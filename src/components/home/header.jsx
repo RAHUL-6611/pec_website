@@ -9,7 +9,7 @@ const Header = () => {
                    <source src={vid} type="video/mp4"/>
                </video>
            </header>
-            <div className="bg-yellow-200">
+            <div className="numbers">
                <div className="count block text-center lg:flex justify-center">
                    <div>500+facultys</div>
                    <div>1700+students</div>

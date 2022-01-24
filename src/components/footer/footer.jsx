@@ -1,9 +1,11 @@
 import React from "react";
 import logo from "../../images/PTU_Logo-color.png"
+import './footer.css';
+import { TiSocialYoutube, TiSocialInstagram, TiSocialLinkedin, TiSocialFacebook, TiSocialTwitter} from "../../../node_modules/react-icons/ti"
 
 const Footer = () => {
     return <>
-             <div className="bg-gray-500">
+             <div className="">
              <div className="footer flex flex-row justify-evenly items-center bg-gray-500 text-sky-100 p-6">
                <div className="logo flex items-center">
                    <img src={logo} alt="PTU logo" />
@@ -42,13 +44,12 @@ const Footer = () => {
                    </ol>
                </div>
                <div className="social">
-                   <h2 className="font-bold underline">our social profiles</h2>
                    <ol className="flex flex-row">
-                       <li>f</li>
-                       <li>i</li>
-                       <li>in</li>
-                       <li>ut</li>
-                       <li>t</li>
+                       <li><TiSocialYoutube /></li>
+                       <li><TiSocialTwitter /></li>
+                       <li><TiSocialFacebook /></li>
+                       <li><TiSocialLinkedin /></li>
+                       <li><TiSocialInstagram /></li>
                    </ol>
                </div>
              </div>

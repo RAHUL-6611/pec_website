@@ -16,7 +16,7 @@ const SecondBar = () => {
         
          <div className="navlinks text-lg">
              <ol className="flex flex-row justify-evenly">
-                 <li className="mx-5 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"><Link to="/news">News</Link></li>
+                 <li className="mx-5 bg-white hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"><Link to="/news">News</Link></li>
                  <li className="bg-blue-500 hover:bg-blue-700 hover:text-white text-white py-2 px-4 border border-blue-700 rounded"><Link to="/events">Events</Link></li>
              </ol>
          </div>

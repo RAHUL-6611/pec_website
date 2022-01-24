@@ -7,8 +7,8 @@ import NavContent from './nav_content';
 
 const Navbar = () => {
     return <>
-             <FirstBar />
              <SecondBar />
+             <FirstBar />
              <ThirdBar />
            </>
 }

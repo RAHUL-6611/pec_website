@@ -37,3 +37,92 @@ button{
     outline: none;
     padding: 3px 7px;
 }
+
+.numbers{
+    color: white;
+    background: linear-gradient(25deg, #301a83, #5e3066,#438e8b, #227425, #171f96);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.ab h1{
+    font-size: 37px;
+    margin-bottom: 7px;
+}
+
+.ab p{
+    font-size: 20px;
+}
+
+.img-slider img{
+    width: 3000px;
+    height: 250px;
+}
+
+.ol{
+    list-style-type: none;
+    margin: 20px 0px;
+}
+
+.ol li{
+    background: #880303;
+    padding: 3px 11px;
+    color: white;
+    padding-bottom: 7px;
+    margin: 5px 15px 5px 0px;
+    cursor: pointer;
+}
+
+.ol li:hover{
+    background-color: #a40404;
+}
+
+.depts{
+    width: 100vw;
+    overflow-x: auto;
+    margin: 40px 0px;
+    cursor: grab;
+}
+
+.depts::-webkit-scrollbar{
+    display: none;
+}
+
+.depts .cols{
+    margin: 4px 20px;
+    width: 500px;
+    box-shadow: 0 0 12px #000000c4;
+}
+
+.depts .cols:hover{
+    box-shadow: 0 0 3px #00000094;
+}
+
+.cols h2{
+    font-size: 15px;
+    font-weight: 800;
+    margin: 10px 0px;
+    width: 300px;
+}
+.depts img{
+    width: 350px;
+    height: 170px;
+}
+
+.company{
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    background-color: turquoise;
+}
+
+.partners{
+    margin: 35px 0px;
+}
+
+.partner{
+    transform: rotate(30deg);
+    margin: 0px 5px;;
+}
