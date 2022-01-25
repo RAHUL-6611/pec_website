@@ -8,11 +8,29 @@ video{
 }
 
 .quicklinks{
-    font-size: 20px;
-    color: red;
+    font-size: 30px;
+    color: black;
     padding: 2px;
-    margin-bottom: 12px;
-    border-bottom: 2px solid;
+    margin-bottom: 32px;
+    border-bottom: 4px solid;
+}
+
+.quicklinks h1{
+    width: 175px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.links li{
+    padding: 10px 20px;
+    margin: 10px 80px;
+    border: 2px solid gray;
+}
+
+.links li:hover{
+    background: gray;
+    color: white;
 }
 
 li{
@@ -80,14 +98,24 @@ button{
 }
 
 .depts{
-    width: 100vw;
+    width: 89vw;
     overflow-x: auto;
     margin: 40px 0px;
-    cursor: grab;
+    cursor:all-scroll;
+    padding-bottom:20px ;
 }
 
 .depts::-webkit-scrollbar{
-    display: none;
+    height: 6px;
+    background-color: rgb(199, 199, 199);
+    margin: 10px 3px;
+}
+
+.depts::-webkit-scrollbar-thumb{
+    background-color: rgb(65, 65, 65);
+    position: absolute;
+    width: 20px;
+    height: 40px;
 }
 
 .depts .cols{
@@ -125,4 +153,11 @@ button{
 .partner{
     transform: rotate(30deg);
     margin: 0px 5px;;
+}
+
+.wid{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
 }

@@ -4,11 +4,11 @@ import { FaBars, FaPlus, FaSearch } from 'react-icons/fa';
 
 
 const navigation = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'About', href: '/aboutpage', current: false },
-  { name: 'Campus', href: '/campus', current: false },
-  { name: 'Academics', href: '/academics', current: false },
-  { name: 'Placements', href: '/placements', current: false },
+  { name: 'Home', href: '/', current: true , width: "80px"},
+  { name: 'About', href: '/aboutpage', current: false, width: "90px" },
+  { name: 'Campus', href: '/campus', current: false, width: "100px" },
+  { name: 'Academics', href: '/academics', current: false, width: "130px" },
+  { name: 'Placements', href: '/placements', current: false, width: "150px" },
 ]
 
 function classNames(...classes) {
@@ -46,8 +46,8 @@ export default function ThirdBar() {
                 <div className="hidden lg:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <Link to={item.href}>
-                         <a
+                         <div className="dropdown" style={{"width" : item.width}}>
+                         {/* <a
                            key={item.name}
                            href={item.href}
                            className={classNames(
@@ -57,9 +57,13 @@ export default function ThirdBar() {
                            aria-current={item.current ? 'page' : undefined}
                          >
                            {item.name}
-                         </a>
+                         </a>   */}
+                         {item.name}
+                          <div className="dropdown-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, iusto.</p>
+                          </div>
                          
-                      </Link>
+                         </div>                         
                     ))}
                   </div>
                 </div>
