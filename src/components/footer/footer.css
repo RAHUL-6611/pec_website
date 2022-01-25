@@ -1,7 +1,7 @@
 .social li{
     font-size: 33px;
-    border: 2px solid white;
-    padding: 8px;
+    border: 2px solid;
+    padding: 7px;
     border-radius: 50%;
     margin: 10px;
 }
@@ -12,6 +12,13 @@
     border: 2px solid white;
 }
 
-.social ul{
-    
+.foot{
+    background-color: #020119;
+}
+
+.loc{
+    width: 283px;
+    height: 130px;
+    box-shadow: 0 0 3px white;
+    border-radius: 10px;
 }

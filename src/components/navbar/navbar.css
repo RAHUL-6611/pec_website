@@ -6,6 +6,7 @@ nav{
     position: sticky;
     top: 0px;
     z-index: 1;
+    background-color: #0b1035;
 }
 
 .first_bar{
@@ -33,7 +34,7 @@ nav{
     display: flex;
     justify-content: space-around;
     overflow-x: hidden;
-    background: #09146c;
+    background: #0d123c;
     color: white;
     padding: 30px 0px;
     align-items: center;
@@ -47,6 +48,7 @@ nav{
 .navlinks ol li {
     padding: 2px 7px;
 }
+
 
 
 .logo {
@@ -91,10 +93,10 @@ nav{
 
 .dropdown{
     width: 80px;
-    padding: 6px 15px;
-    border-radius: 5px;
+    padding: 6px 12px;
+    border-radius: 3px;
     color: white;
-    background: #3a6579;
+    background: #2196f3;
     outline: none;
     height: 40px;
     text-align: center;

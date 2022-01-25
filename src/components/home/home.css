@@ -57,12 +57,17 @@ button{
 }
 
 .numbers{
-    color: white;
-    background: linear-gradient(25deg, #301a83, #5e3066,#438e8b, #227425, #171f96);
     font-size: 20px;
     font-weight: 600;
-    padding: 20px;
-    margin-top: 40px;
+    margin: 30px;
+    transform: translateY(-103px);
+    background: white;
+    box-shadow: 0 0 10px #040f4f;
+}
+
+.count div{
+    padding: 35px;
+    /* border-right: 2px solid #80808057; */
 }
 
 .ab h1{
@@ -140,10 +145,13 @@ button{
 }
 
 .company{
-    width: 400px;
-    height: 200px;
     margin: 20px;
     background-color: turquoise;
+}
+
+.company img{
+    width: 500px;
+    height: 200px;
 }
 
 .partners{
@@ -156,8 +164,21 @@ button{
 }
 
 .wid{
-    font-size: 20px;
+    font-size: 1em;
     text-align: center;
     text-decoration: underline;
     text-transform: capitalize;
 }
+
+.grid{
+    display: grid;
+    grid-gap: 10px;
+    column-count: 4;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.grid div:nth-child(1){
+    /* width: 500px;
+    height: 200px; */
+}
+
