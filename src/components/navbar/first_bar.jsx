@@ -10,23 +10,23 @@ const FirstBar = () => {
              <div className="first_bar text-center">
                  <ul>
                       <li>
-                         <img src={e1} alt="" />
+                         <img className="icons" src={e1} alt="" />
                          <h4>IIC</h4>
                       </li>
                       <li>
-                         <img src={e2} alt="" />
+                         <img className="icons" src={e2} alt="" />
                          <h4>IIC</h4>
                       </li>
                       <li>
-                         <img src={e3} alt="" />
+                         <img className="icons" src={e3} alt="" />
                          <h4>IIC</h4>
                       </li>
                       <li>
-                         <img src={e4} alt="" />
+                         <img className="icons" src={e4} alt="" />
                          <h4>IIC</h4>
                       </li>
                       <li>
-                         <img src={e1} alt="" />
+                         <img className="icons" src={e1} alt="" />
                          <h4>IIC</h4>
                       </li>
                  </ul>

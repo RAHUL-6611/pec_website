@@ -11,26 +11,35 @@ video{
     font-size: 30px;
     color: black;
     padding: 2px;
-    margin-bottom: 32px;
+    margin-bottom: 70px;
     border-bottom: 4px solid;
 }
 
 .quicklinks h1{
-    width: 175px;
+    width: 187px;
     text-align: center;
     background: black;
     color: white;
+    box-shadow: 0 0 5px black;
+    padding: 5px;
+    margin-bottom: 2px;
 }
 
 .links li{
     padding: 10px 20px;
-    margin: 10px 80px;
-    border: 2px solid gray;
+    color: rgb(2, 4, 42);
+    margin: 20px 100px;
+    border: 3.5px solid rgb(2, 4, 42);
+    box-shadow: 0 0 11px 0px #0000009e;
+    cursor: pointer;
+    border-radius: 0px 30px;
+    font-size: 18px;
 }
 
 .links li:hover{
-    background: gray;
+    background:rgb(2, 4, 42) ;
     color: white;
+    box-shadow: none;
 }
 
 li{
@@ -57,12 +66,15 @@ button{
 }
 
 .numbers{
+    box-shadow: 0px 1px 5px #00000085;
     font-size: 20px;
     font-weight: 600;
-    margin: 30px;
-    transform: translateY(-103px);
-    background: white;
-    box-shadow: 0 0 10px #040f4f;
+    margin: 30px 40px 100px 30px;
+    color: #08095b;
+    border-radius: 0px 10px;
+    transform: translateY(10px);
+    border-top: 3px solid;
+    border-right: 3px solid;
 }
 
 .count div{
@@ -80,8 +92,8 @@ button{
 }
 
 .img-slider img{
-    width: 3000px;
-    height: 250px;
+    width: 3395px;
+    height: 400px;
 }
 
 .ol{
@@ -96,17 +108,20 @@ button{
     padding-bottom: 7px;
     margin: 5px 15px 5px 0px;
     cursor: pointer;
+    box-shadow: inset 0 0 5px 0px #1c010185, 0 0 10px 0px #1c0101bd;
+    border-radius: 7px;
 }
 
 .ol li:hover{
     background-color: #a40404;
+    box-shadow: none;
 }
 
 .depts{
     width: 89vw;
     overflow-x: auto;
     margin: 40px 0px;
-    cursor:all-scroll;
+    cursor: pointer;
     padding-bottom:20px ;
 }
 
@@ -123,9 +138,12 @@ button{
     height: 40px;
 }
 
-.depts .cols{
+.cols{
     margin: 4px 20px;
     width: 500px;
+}
+
+.parts .cols{
     box-shadow: 0 0 12px #000000c4;
 }
 
@@ -177,8 +195,50 @@ button{
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
-.grid div:nth-child(1){
-    /* width: 500px;
-    height: 200px; */
+.icons{
+    animation: rotate 7s  linear infinite;
+    cursor: pointer;
 }
 
+
+@keyframes rotate{
+    from{
+       transform: rotate(0deg);
+    }
+    to{
+       transform: rotate(360deg);
+    }
+}
+
+.testy{
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    color: #0d0d51;
+    text-decoration: underline;
+}
+
+.test{
+    box-shadow: 0 0 2px #081a82, 0 0 10px #80808066;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.test .pic{
+    position: relative;
+    margin: 22px 0px;
+    width: 70px;
+    height: 70px;
+    transform: translate(112px, 0px);
+    border-radius: 50%;
+    border-top: 4px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+}
+
+.test h2{
+    font-size: 15px;
+    font-weight: 800;
+    margin: 10px 0px 10px 0px;
+    width: 300px;
+}

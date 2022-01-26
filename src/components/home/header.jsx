@@ -1,13 +1,11 @@
 import React from "react";
 import "./home.css"
-import vid from "../../images/campus_video.mp4"
+import App from './carousel'
 
 const Header = () => {
     return <>
-           <header className="columns-1" style={{"height" : "600px"}}>
-               <video className="w-full aspect-video" width="100%" height="600px" preload="auto" muted autoPlay={"autoplay"} loop>
-                   <source src={vid} type="video/mp4"/>
-               </video>
+           <header className="columns-1" style={{"height" : "500px"}}>
+               <App />
            </header>
             <div className="numbers">
                <div className="count block text-center lg:flex justify-center">
