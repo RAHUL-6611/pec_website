@@ -3,7 +3,6 @@ import e1 from "../../images/en1.jpg"
 import e2 from "../../images/en2.jpg"
 import e3 from "../../images/en3.jpg"
 import e4 from "../../images/en4.jpg"
-import e5 from "../../images/en1.jpg"
  
 const FirstBar = () => {
     return <>

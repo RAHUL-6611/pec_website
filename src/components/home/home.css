@@ -2,6 +2,10 @@
     padding: 20px;
 }
 
+.about{
+    margin-top: 80px;
+}
+
 video{
     height: 600px;
     width: 100%;
@@ -66,20 +70,20 @@ button{
 }
 
 .numbers{
-    box-shadow: 0px 1px 5px #00000085;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
-    margin: 30px 40px 100px 30px;
+    margin: 50px 0px;
     color: #08095b;
-    border-radius: 0px 10px;
     transform: translateY(10px);
-    border-top: 3px solid;
-    border-right: 3px solid;
+    height: 300px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .count div{
     padding: 35px;
-    /* border-right: 2px solid #80808057; */
 }
 
 .ab h1{
@@ -102,14 +106,14 @@ button{
 }
 
 .ol li{
-    background: #880303;
-    padding: 3px 11px;
+    background: linear-gradient(206deg, #52c5ff 0%, #061ea7db 100%);
+    padding: 10px 11px;
     color: white;
     padding-bottom: 7px;
     margin: 5px 15px 5px 0px;
     cursor: pointer;
-    box-shadow: inset 0 0 5px 0px #1c010185, 0 0 10px 0px #1c0101bd;
-    border-radius: 7px;
+    box-shadow: 0 0 15px 0px #6b6c72de;
+    border-radius: 4px;
 }
 
 .ol li:hover{
@@ -127,15 +131,14 @@ button{
 
 .depts::-webkit-scrollbar{
     height: 6px;
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(199 199 199 / 64%);
     margin: 10px 3px;
 }
 
 .depts::-webkit-scrollbar-thumb{
-    background-color: rgb(65, 65, 65);
-    position: absolute;
+    border-radius: 30px;
     width: 20px;
-    height: 40px;
+    background: linear-gradient(139deg, #03a9f4, #071b8b);
 }
 
 .cols{
@@ -144,7 +147,8 @@ button{
 }
 
 .parts .cols{
-    box-shadow: 0 0 12px #000000c4;
+    box-shadow: 0px 0px 3px #0000007d;
+    border-radius: 4px;
 }
 
 .depts .cols:hover{
@@ -214,7 +218,7 @@ button{
     text-align: center;
     font-size: 28px;
     padding: 10px;
-    color: #0d0d51;
+    color: black;
     text-decoration: underline;
 }
 
@@ -222,6 +226,10 @@ button{
     box-shadow: 0 0 2px #081a82, 0 0 10px #80808066;
     text-align: center;
     border-radius: 5px;
+    background: linear-gradient(225deg, #24d3ff 0%, #00106b 100%);
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px;
 }
 
 .test .pic{
@@ -237,8 +245,23 @@ button{
 }
 
 .test h2{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 800;
-    margin: 10px 0px 10px 0px;
+    margin: 7px 0px 5px 0px;
+    width: 300px;
+    color: white;
+}
+
+.achieve{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.achievers{
+    position: absolute;
+    background: red;
+    z-index: 1;
     width: 300px;
 }

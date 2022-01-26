@@ -21,7 +21,6 @@ const SecondBar = () => {
              </ol>
          </div>
     </div>
-    <hr />
     </>
 }
 

@@ -8,8 +8,8 @@ const Footer = () => {
     return <>
              <div className="">
              <div className="footer flex flex-row justify-evenly items-center bg-black text-sky-100 p-8 py-12">
-               <div className="logo items-center">
-                   <img src={logo} alt="PTU logo" className="my-5" />
+               <div className="items-center">
+                   <img src={logo} alt="PTU logo" className="logo my-5" />
                    <h2 className="font-bold underline text-center">PTU</h2>
                </div>
               
