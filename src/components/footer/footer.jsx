@@ -20,29 +20,29 @@ const Footer = () => {
                <div className="about-us px-3">
                    <h2 className="underline">About Us</h2>
                    <ol>
-                       <li><a href="#">college</a></li>
-                       <li><a href="#">vise chancellor</a></li>
-                       <li><a href="#">faculties</a></li>
-                       <li><a href="#">library</a></li>
-                       <li><a href="#">inovation center</a></li>
-                       <li><a href="#">placement</a></li>
-                       <li><a href="#">students</a></li>
-                       <li><a href="#">staffs</a></li>
-                       <li><a href="#">campus</a></li>
+                       <li><a href="\">college</a></li>
+                       <li><a href="\">vise chancellor</a></li>
+                       <li><a href="\">faculties</a></li>
+                       <li><a href="\">library</a></li>
+                       <li><a href="\">inovation center</a></li>
+                       <li><a href="\">placement</a></li>
+                       <li><a href="\">students</a></li>
+                       <li><a href="\">staffs</a></li>
+                       <li><a href="\">campus</a></li>
                    </ol>
                </div>
                <div className="about-us px-3">
                    <h2 className="underline">About Us</h2>
                    <ol>
-                       <li><a href="#">college</a></li>
-                       <li><a href="#">vise chancellor</a></li>
-                       <li><a href="#">faculties</a></li>
-                       <li><a href="#">library</a></li>
-                       <li><a href="#">inovation center</a></li>
-                       <li><a href="#">placement</a></li>
-                       <li><a href="#">students</a></li>
-                       <li><a href="#">staffs</a></li>
-                       <li><a href="#">campus</a></li>
+                       <li><a href="\">college</a></li>
+                       <li><a href="\">vise chancellor</a></li>
+                       <li><a href="\">faculties</a></li>
+                       <li><a href="\">library</a></li>
+                       <li><a href="\">inovation center</a></li>
+                       <li><a href="\">placement</a></li>
+                       <li><a href="\">students</a></li>
+                       <li><a href="\">staffs</a></li>
+                       <li><a href="\">campus</a></li>
                    </ol>
                </div>
                <div className="social">
