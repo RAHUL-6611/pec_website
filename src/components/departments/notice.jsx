@@ -34,7 +34,7 @@ let newsObj = [
     },
     
 ]
-export default function Notices()
+export default function Notice()
 {
     return(
         <div className="news-corner grid grid-cols-6 gap-4 my-20 mx-10">
