@@ -1,15 +1,11 @@
 import React from 'react';
-import Gallery from "./gallery"
-import Testimonial from "./testimonial"
-// import NewsPTU from "../home/news/NewsPTU"
-import HodCard from "./hod_card"
-// <<<<<<< HEAD
+import Testimonial from "./Testimonial"
+import HodCard from "./HodCard"
 import { Link } from "react-router-dom";
-// =======
 import About from './About';
 import Faculty from './Faculty';
-import Notice from "./notice"
-import Vision from './vision';
+import Notice from "./Notice"
+import Vision from './Vision';
 
 const DeptLandingPage = () => {
   return (<div>

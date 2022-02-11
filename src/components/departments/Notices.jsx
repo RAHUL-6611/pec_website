@@ -1,10 +1,10 @@
 import React from 'react';
 import NewsPTU from "../home/news"
 
-const Notices1 = () => {
+const Notices = () => {
   return (<div>
       {/* <NewsPTU/> */}
   </div>);
 };
 
-export default Notices1;
+export default Notices;

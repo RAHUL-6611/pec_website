@@ -1,9 +1,9 @@
 import React from 'react';
 import "./vision.css"
-import { MdOutlineTravelExplore } from "../../../node_modules/react-icons/md"
-import { SiReasonstudios } from "../../../node_modules/react-icons/si"
-import { BsBookHalf } from "../../../node_modules/react-icons/bs"
-import { RiTeamFill } from "../../../node_modules/react-icons/ri"
+import { MdOutlineTravelExplore } from "react-icons/md"
+import { SiReasonstudios } from "react-icons/si"
+import { BsBookHalf } from "react-icons/bs"
+import { RiTeamFill } from "react-icons/ri"
 
 import bg from "../../images/success.jpg"
 

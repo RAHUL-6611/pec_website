@@ -4,7 +4,7 @@ import cse from "../../images/cse_depart.jpg"
 import { BiSearchAlt } from "react-icons/bi";
 import { AiFillCaretDown } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import HodCard from "./hod_card";
+import HodCard from "./HodCard";
 export default function DeptHeader() 
 {
     return(

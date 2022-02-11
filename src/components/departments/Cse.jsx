@@ -1,8 +1,8 @@
 import React from "react"
 import './cse.css'
-import Hod from "./hod"
+import Hod from "./Hod"
 
-import DeptHeader from "./dept_head"
+import DeptHeader from "./DeptHeader"
 // import Faculty from "./faculty"
 import { Routes, Route, Link } from "react-router-dom";
 import About from "./About"
@@ -13,8 +13,8 @@ import Facilities from "./Facilities"
 // <<<<<<< HEAD
 import Notices1 from "./Notices"
 // =======
-import Research from "./research"
-import Notices from "./notice"
+// import Research from "./research"
+import Notices from "./Notice"
 // >>>>>>> c5730b8a49a608998323a46828d2d66c52e9228e
 import Footer from "../footer"
 import Alumini from "./Alumini";
