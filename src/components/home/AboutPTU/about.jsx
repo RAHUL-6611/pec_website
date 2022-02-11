@@ -29,7 +29,7 @@ let carddesc = [
      }
 ]
 
-export default function AboutComp()
+export default function About()
 {
     return <>
              <div className="aboutPart grid grid-cols-5 gap-4 my-20">
