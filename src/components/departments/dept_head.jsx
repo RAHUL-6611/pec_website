@@ -1,6 +1,6 @@
 import React from "react";
 
-import cse from "../../images/cse.jpg"
+import cse from "../../images/cse_depart.jpg"
 import { BiSearchAlt } from "react-icons/bi";
 import { AiFillCaretDown } from "react-icons/ai";
 import { Link } from "react-router-dom";
@@ -12,7 +12,7 @@ export default function DeptHeader()
             <div className="deptHead">
                 <div className="header_dept">
                     <div className="title_dept">
-                        <h3>Computer Science Department</h3>
+                        <h3>Department of Computer Science and engineering</h3>
                     </div>
                     <div className="searchbar_dept">
                         <input type="text" placeholder="Search here"/>

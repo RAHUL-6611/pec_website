@@ -5,52 +5,52 @@ import img from "../../images/cse.jpg"
 
 const About = () => {
   return <div>
-    <div className="hw1 flex justify-evenly px-20 pt-10">
+    <div className="hw1 flex justify-evenly px-20 pt-10 mt-10">
         <div>
            <div className="explore text-left">Explore the</div>
            <div className="dept-title text-left">CSE Department</div>
         </div>
         <div className="title_of-dept">
-            <div className="numbers grid grid-cols-3 gap-24">
-              <p className='col-span-1'>
+            <div className="numbers grid grid-cols-3 gap-10">
+              <p className='col-span-1 bg-slate-100'>
                 <h5 className="numberse_here">481</h5>
                 <div className='numbers_name'>
                 <h3 className="name_here text-4xl text-center">B.Tech students</h3>
                 </div>
               </p>
               
-              <p className='col-span-1'>
+              <p className='col-span-1 bg-slate-100'>
                 <h5 className="numberse_here">20</h5>
                 <div className='numbers_name'>
-                <h3 className="name_here text-4xl text-center">M.Tech <br />Data Science</h3>
+                <h3 className="name_here text-4xl text-center">&nbsp;&nbsp;&nbsp;&nbsp;M.Tech <br />&nbsp;&nbsp;&nbsp;&nbsp;Data Science</h3>
                 </div>
               </p>
 
-              <p className='col-span-1'>
+              <p className='col-span-1 bg-slate-100'>
                 <h5 className="numberse_here">19</h5>
                 <div className='numbers_name'>
-                <h3 className="name_here text-4xl text-center">M.Tech <br />Information Secutiy</h3>
+                <h3 className="name_here text-4xl text-center">M.Tech <br />Information Security</h3>
                 </div>
               </p>
               
-              <p className='col-span-1'>
+              <p className='col-span-1 bg-slate-100'>
                 <h5 className="numberse_here">84</h5>
                 <div className='numbers_name'>
-                <h3 className="name_here text-4xl text-center">MCA students</h3>
+                <h3 className="name_here text-4xl text-center">&nbsp;&nbsp;&nbsp;MCA students</h3>
                 </div>
               </p>
               
-              <p className='col-span-1'>
+              <p className='col-span-1 bg-slate-100'>
                 <h5 className="numberse_here">85</h5>
                 <div className='numbers_name'>
-                <h3 className="name_here text-4xl text-center">Ph.D students</h3>
+                <h3 className="name_here text-4xl text-center">&nbsp;&nbsp;  Ph.D students</h3>
                 </div>
               </p>
 
-              <p className='col-span-1'>
+              <p className='col-span-1 bg-slate-100'>
                 <h5 className="numberse_here">24</h5>
                 <div className='numbers_name'>
-                <h3 className="name_here text-4xl text-center">Faculty</h3>
+                <h3 className="name_here text-4xl text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Faculty</h3>
                 </div>
               </p>
               

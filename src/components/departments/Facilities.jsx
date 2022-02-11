@@ -21,7 +21,7 @@ const Facilities = () => {
       <div className="fac flex flex-row justify-around py-10 ">
         <img src={fac1} alt="" />
         <div className="details flex flex-col w-1/2 ">
-          <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
+          <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-100 text-left">
             <h3 className="text-4xl" >SRINIVASA RAMANUJAN COMPUTING CENTRE</h3>
           </div>
           <div className="details_of_fac text-3xl text-left pt-5">
@@ -36,7 +36,7 @@ const Facilities = () => {
       <div className="fac flex flex-row-reverse bg-gray-100 justify-around py-10">
         <img src={fac2} alt="" />
         <div className="details flex flex-col w-1/2 ">
-          <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
+          <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-100 text-left">
             <h3 className="text-4xl" >DISTRIBUTED COMPUTING LAB</h3>
           </div>
           <div className="details_of_fac text-3xl text-left pt-5">
@@ -50,7 +50,7 @@ const Facilities = () => {
       <div className="fac flex flex-row justify-around py-10">
         <img src={fac3} alt="" />
         <div className="details flex flex-col w-1/2 ">
-          <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
+          <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-100 text-left">
             <h3 className="text-4xl" >RESEARCH LABORATORY:</h3>
           </div>
           <div className="details_of_fac text-3xl text-left pt-5">
@@ -64,7 +64,7 @@ const Facilities = () => {
       <div className="fac flex flex-row-reverse bg-gray-100 justify-around py-10">
         <img src={fac4} alt="" />
         <div className="details flex flex-col w-1/2 ">
-          <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
+          <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-100 text-left">
             <h3 className="text-4xl" >SRINIVASA RAMANUJAN COMPUTING CENTRE</h3>
           </div>
           <div className="details_of_fac text-3xl text-left pt-5">
@@ -78,7 +78,7 @@ const Facilities = () => {
       <div className="fac flex flex-row justify-around py-10">
         <img src={fac5} alt="" />
         <div className="details flex flex-col w-1/2 ">
-          <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
+          <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-100 text-left">
             <h3 className="text-4xl" >HARDWARE AND TROUBLE SHOOTING LAB</h3>
           </div>
           <div className="details_of_fac text-3xl text-left pt-5">
@@ -92,7 +92,7 @@ const Facilities = () => {
       <div className="fac flex flex-row-reverse bg-gray-100 justify-around py-10">
         <img src={fac6} alt="" />
         <div className="details flex flex-col w-1/2 ">
-          <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
+          <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-100 text-left">
             <h3 className="text-4xl" >APPLICATION LAB</h3>
           </div>
           <div className="details_of_fac text-3xl text-left pt-5">
