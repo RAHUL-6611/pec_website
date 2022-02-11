@@ -16,7 +16,7 @@ import Notices1 from "./Notices"
 import Research from "./research"
 import Notices from "./notice"
 // >>>>>>> c5730b8a49a608998323a46828d2d66c52e9228e
-import Footer from "../footer/Footer"
+import Footer from "../footer"
 import Alumini from "./Alumini";
 
 export default function Cse(){
