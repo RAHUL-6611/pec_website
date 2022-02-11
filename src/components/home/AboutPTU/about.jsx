@@ -1,7 +1,7 @@
 import React from "react";
 
 import './about.css';
-import { BsArrowDownRightSquareFill } from '../../../../node_modules/react-icons/bs';
+import { BsArrowDownRightSquareFill } from 'react-icons/bs';
 
 import imgs1 from '../../../images/mectro.jpg'
 import imgs2 from '../../../images/home.jpg'

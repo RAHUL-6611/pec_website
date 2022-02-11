@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../head_sec/small_carousel/smallCarousel.css"
+import "../header/small_carousel/smallCarousel.css"
 
 import img from '../../images/ZayarazG.png'
 

@@ -1,14 +1,14 @@
 import React from "react";
 
-import CarouselHold from "../home/carousel_hold";
-import CardHold from "../home/cards/card_hold";
-import AboutUs from "./About Us/aboutus";
-import StudentCount from "./student_Count/count";
-import NewsBlock from "./newsEvents/newsBlock";
-import CampusLifeOne from "./campus_life/campus_life1";
-import AboutComp from "./AboutPTU/about";
-import NewsPTU from "./news/NewsPTU";
-import Header from "../head_sec/Header";
+import CarouselHold from "./Carousel_hold";
+// import CardHold from "./cards/Card_hold";
+// import AboutUs from "./About Us/Aboutus";
+import StudentCount from "./student_Count/Student_Count";
+// import NewsBlock from "./newsEvents/NewsEvents";
+import CampusLifeOne from "./campus_life/Campus_life1";
+import AboutComp from "./AboutPTU/About";
+import News from "./news";
+import Header from "../header/Header";
 
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
            {/* <CardHold /> */}
            {/* <SmallCarousel /> */}
            <AboutComp />
-           <NewsPTU />
+           <News />
            {/* <AboutUs /> */}
            {/* <NewsBlock /> */}
            <CarouselHold />

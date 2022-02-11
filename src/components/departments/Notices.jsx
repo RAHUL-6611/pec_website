@@ -1,5 +1,5 @@
 import React from 'react';
-import NewsPTU from "../home/news/newsPTU"
+import NewsPTU from "../home/news"
 
 const Notices1 = () => {
   return (<div>

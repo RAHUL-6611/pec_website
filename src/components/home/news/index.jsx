@@ -59,7 +59,7 @@ let newsObj = [
     },
     
 ]
-export default function NewsPTU()
+export default function News()
 {
     return(
         <div className="news-corner grid grid-cols-6 gap-4 my-20 mx-10">
