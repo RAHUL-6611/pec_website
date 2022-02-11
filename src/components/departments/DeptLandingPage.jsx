@@ -1,5 +1,5 @@
 import React from 'react';
-import Testimonial from "./Testimonial"
+// import Testimonial from "./Testimonial"
 import HodCard from "./HodCard"
 import { Link } from "react-router-dom";
 import About from './About';
@@ -16,7 +16,7 @@ const DeptLandingPage = () => {
       <Vision />
       <Notice />
       <Faculty />
-      <Testimonial />
+      {/* <Testimonial /> */}
   </div>);
 };
 
